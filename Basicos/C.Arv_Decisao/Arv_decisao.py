@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.tree import export_graphviz
 import graphviz
 
-data = pd.read_csv("C:/Projetos/GitHub/IA_Aulas/dois.Naive Bayes/insurance.csv", keep_default_na=False)
+data = pd.read_csv("C:/Projetos/GitHub/IA_Aulas/Basicos/B.Naive_Bayes/insurance.csv", keep_default_na=False)
 #print(data)
 data = data.drop(columns=["Unnamed: 0"])
 #print(data)

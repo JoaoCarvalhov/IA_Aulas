@@ -23,7 +23,7 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import seaborn as sns
 
-base = pd.read_csv("C:/Users/proje/Downloads/CursoIA/CursoIA/3.Algoritmos de Machine Learning/mt_cars.csv")
+base = pd.read_csv("C:/projetos/GitHub/IA_Aulas/Basicos/A.Reg_Linear/mt_cars.csv")
 
 #print(base.head())
 
