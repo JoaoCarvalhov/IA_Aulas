@@ -5,7 +5,7 @@ import numpy as np
 
 # O KNN é um algoritmo de classificação que classifica um novo ponto de dados com base na maioria dos rótulos dos seus vizinhos mais próximos.
 
-data = pd.read_csv("C:/projetos/GitHub/IA_Aulas/Basicos/A.Reg_Linear/mt_cars.csv")
+data = pd.read_csv("C:/projetos/GitHub/IA_Aulas/A.Basicos/A.Reg_Linear/mt_cars.csv")
 print(data)
 
 X = data[["mpg","hp"]].values #usando o miles per galon e o potency para

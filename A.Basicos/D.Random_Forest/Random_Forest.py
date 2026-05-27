@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import matplotlib.pyplot as plt
 from sklearn.tree import plot_tree
 
-data = pd.read_csv("C:/projetos/GitHub/IA_Aulas/Basicos/B.Naive_Bayes/insurance.csv", keep_default_na=False)
+data = pd.read_csv("C:/projetos/GitHub/IA_Aulas/A.Basicos/B.Naive_Bayes/insurance.csv", keep_default_na=False)
 data = data.drop(columns=['Unnamed: 0'], index=1)
 
 X = data.drop(columns=["Accident"]).values

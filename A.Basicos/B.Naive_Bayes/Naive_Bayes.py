@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 #P(A|B) = P(B|A) * P(A) / P(B) 
 # P(A|B) é a probabilidade de A ocorrer dado que B ocorreu
 
-data = pd.read_csv("C:/Projetos/GitHub/IA_Aulas/Basicos/B.Naive_Bayes/insurance.csv", keep_default_na=False) # lê o arquivo CSV e trata valores ausentes
+data = pd.read_csv("C:/Projetos/GitHub/IA_Aulas/A.Basicos/B.Naive_Bayes/insurance.csv", keep_default_na=False) # lê o arquivo CSV e trata valores ausentes
 #print(data.head())
 data = data.drop(columns=['Unnamed: 0'])
 #print(data.shape)

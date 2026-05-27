@@ -1,0 +1,12 @@
+Valores Faltantes:
+    excluir instancia
+    completar com:
+        Valor numérico: mediana
+        Valor categórico
+
+Tratamento de Outliers:
+    remover
+    Normalizar
+
+Atomicidade das features
+    Data = ano | mes | dia
