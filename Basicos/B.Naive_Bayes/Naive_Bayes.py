@@ -18,8 +18,8 @@ data = data.drop(columns=['Unnamed: 0'])
 #print(data.isnull().sum())
 y = data["Accident"].values
 X = data.drop(columns=["Accident"]).values
-#print(X)
-#print(y)
+print(X.shape)
+print(y.shape)
 
 labelencoder = LabelEncoder() # codificação de rótulos para variáveis categóricas
 for i in range(X.shape[1]):#para cada coluna de x

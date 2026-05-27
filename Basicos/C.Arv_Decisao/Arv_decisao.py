@@ -25,7 +25,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 modelo = DecisionTreeClassifier(random_state=1, max_depth=8, max_leaf_nodes=6) # cria modelo de árvore de decisão, limitando a profundidade e o número de folhas 
                                                                                # para evitar overfitting
 modelo.fit(X_train, y_train)
-7
+
 dot_data = export_graphviz(modelo, out_file=None, filled=True, feature_names=data.columns[:-1], class_names=True, rounded=True)
 y_pred = modelo.predict(X_test) # faz previsões com os dados de teste
 print("Acurácia:", accuracy_score(y_test, y_pred)) # avalia a acurácia do modelo
