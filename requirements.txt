@@ -3,3 +3,5 @@ numpy
 scikit-learn
 graphviz
 matplotlib
+statsmodels
+seaborn
