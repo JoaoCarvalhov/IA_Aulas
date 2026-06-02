@@ -5,3 +5,4 @@ graphviz
 matplotlib
 statsmodels
 seaborn
+numba
