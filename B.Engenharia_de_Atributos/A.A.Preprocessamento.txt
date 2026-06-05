@@ -10,3 +10,5 @@ Tratamento de Outliers:
 
 Atomicidade das features
     Data = ano | mes | dia
+
+Oversampling ou Undersampling

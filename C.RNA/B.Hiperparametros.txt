@@ -1,0 +1,10 @@
+hidden_layers_sizes: Lista de neuronios na camada oculta
+    (2, 4, 4) -> 3 camadas (2 neuronios, 4 neuronios, 4 neuronios)
+
+batch_size: nuymero de instancias por batch usadas para atualizar a rede
+Epochs(max_iter): numero de vezes que os dados passam pela rede
+early_stopping: Para quando não há melhora na performace      <- evitar overffiting 
+learning_rate: o quanto os pesos deve ser atualizados a cada iteração
+
+dropout: elimina neuronios de acordo com uma probabilidade
+Função de ativação: logistic(degrau), tanh(-1 a 1), relu(triangulo), sigmouid(S) ...

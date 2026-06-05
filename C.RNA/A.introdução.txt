@@ -1,0 +1,93 @@
+
+RNA (Redes Neurais Artificiais)
+
+- São modelos computacionais inspirados no funcionamento do cérebro humano.
+- Possuem neurônios artificiais interconectados que recebem entradas, realizam cálculos e produzem saídas.
+- As conexões entre neurônios possuem pesos, que são ajustados durante o treinamento da rede.
+
+Entre suas aplicações estão:
+
+- Previsão
+- Classificação de imagens
+- Reconhecimento de fala
+- Tradução automática
+- Detecção de anomalias
+- ...
+
+--------------------------------------------------
+
+Perceptron — Um dos modelos mais básicos de RNA (1 neurônio)
+
+- Classificador linear de camada única.
+- Pode receber N atributos de entrada e produzir uma saída binária (1 ou -1).
+
+Fluxo simplificado:
+
+Entrada → Pesos → Soma ponderada + Bias → Função de ativação → Saída
+
+Função soma:
+
+S = Σ(w_i * x_i) + b
+
+Onde:
+- w_i = pesos
+- x_i = valores de entrada
+- b = bias (fator de tendência)
+
+Função de ativação:
+
+f(S) =
+    1   se S > 0
+   -1   se S ≤ 0
+
+Atualização dos pesos:
+
+w_i = w_i + γ(d - y)x_i
+
+Atualização do bias:
+
+b = b + γ(d - y)
+
+Onde:
+- γ = taxa de aprendizado
+- d = saída desejada
+- y = saída produzida pelo modelo
+
+--------------------------------------------------
+
+Taxa de aprendizado (γ)
+
+- Define o tamanho das correções realizadas nos pesos.
+- Taxas muito baixas podem tornar o treinamento lento.
+- Taxas muito altas podem causar oscilações e impedir a convergência do modelo.
+
+--------------------------------------------------
+
+Batch Size
+
+- Número de exemplos usados antes de atualizar os pesos.
+- Exemplo: batch size = 32 → o modelo processa 32 amostras antes de atualizar os pesos.
+
+Iteration
+
+- Uma atualização dos pesos do modelo.
+- Cada batch processado corresponde a uma iteração.
+
+Epoch
+
+- Uma passagem completa por todo o conjunto de treinamento.
+
+Exemplo:
+- 1000 amostras
+- Batch size = 100
+- 1 epoch = 10 iterações
+
+--------------------------------------------------
+
+Aprendizado Online
+
+- Os pesos são atualizados a cada exemplo processado(iteração).
+
+Aprendizado Batch
+
+- Os pesos são atualizados somente após processar todo o conjunto de treinamento(epoch). 
