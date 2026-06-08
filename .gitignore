@@ -1,3 +1,5 @@
 .venv
 /Pessoal
 __pycache__
+*\test
+*\train
