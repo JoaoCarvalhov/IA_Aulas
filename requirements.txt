@@ -1,3 +1,6 @@
+jupyter
+ipykernel
+
 pandas
 numpy
 scikit-learn
@@ -9,3 +12,4 @@ numba
 imblearn
 keras
 tensorflow
+opencv-contrib-python
