@@ -1,0 +1,9 @@
+Morfologia: Estrutura das palavras
+Sintaxe: A forma em que as palavras são utilizadas
+Semantica: significado
+Pragmatica: Significado no contexto
+
+Corpus: conjunto de dados (Texto não estruturado / normalizado) em linguagem natural (hoje é um novo dia) [ Coletivo =  Corpora ]
+Annotations: processo de rotular metadados ou informações estruturadas sobre um texto bruto para que os algoritmos possam compreendê-lo. (hoje é um novo dia) [
+             ex: { "text": "hoje", "lemma": "hoje", "pos": "ADV", "dep": "advmod" },  { "text": "é", "lemma": "ser", "pos": "AUX", "dep": "root" },  { "text": "um", "lemma": "um", "pos": "DET", "dep": "det" },  { "text": "novo", "lemma": "novo", "pos": "ADJ", "dep": "amod" },  { "text": "dia", "lemma": "dia", "pos": "NOUN", "dep": "attr" }]
+Tokenization: Processo de separar sentenças em suas partes: palavras, pontos, simbolos. ex: Hoje é um novo dia ( hoje | e | um | novo | dia)
