@@ -14,3 +14,4 @@ keras
 tensorflow
 opencv-contrib-python
 nltk
+svgling
