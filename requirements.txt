@@ -11,6 +11,7 @@ seaborn
 numba
 imblearn
 keras
+keras-preprocessing
 tensorflow
 opencv-contrib-python
 nltk
