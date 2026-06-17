@@ -1,5 +1,6 @@
 jupyter
 ipykernel
+python-dotenv
 
 pandas
 numpy
@@ -16,3 +17,6 @@ tensorflow
 opencv-contrib-python
 nltk
 svgling
+
+openai 
+duckduckgo-search
